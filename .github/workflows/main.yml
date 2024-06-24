@@ -3,7 +3,7 @@ name: Hello World
 on:
   push:
     branches:
-      - dev  # Replace with your branch name
+      - Dev  # Replace with your branch name
 
 jobs:
   hello:
