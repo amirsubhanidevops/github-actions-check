@@ -1,0 +1,14 @@
+name: Hello World
+
+on:
+  push:
+    branches:
+      - dev  # Replace with your branch name
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest  # Runs on the latest version of Ubuntu
+
+    steps:
+    - name: Say Hello
+      run: echo "Hello, world!"
